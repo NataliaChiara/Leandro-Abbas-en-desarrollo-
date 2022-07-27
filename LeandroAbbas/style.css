@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bodyOculto{
+    transform: translateX(-100%);
+    transform: translateY(-100%);
+    /* overflow: hidden; */
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.btnNav {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btnNav:hover {
+    background-color: #FF8C2E;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 35vh;
+    left: 10%;
+    font-size: 72px;
+    color: white;
+}
+
+.containerPortada {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    height: 85vh;
+    width: 100%;
+}
+
+.portada {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* MAIN TOTAL */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/*GALERIA*/
+
+.containerPres{
+    height: 400px;
+}
+
+#containerGal {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    display: flex;
+    align-items: center;
+}
+
+.flechasGal {  
+    height: fit-content;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.imagenCentral{
+    width: 300px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* MAIN INICIO */
+
+.mainInicio {
+    width: 90%;
+}
+
+.descripcionInicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 200px;
+}
+
+.parrafo {
+ width: 70%;
+    font-size: 20px;
+    margin: 20px 20px 20px 0px;
+
+}
+
+
+
+/* MAIN PRODUCTOS */
+
+#mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid {
+    margin: 60px;
+}
+
+.tarjetaProd {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.tarjetaProd h2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cat {
+    width: 250px;
+}
+
+/* PRODUCTOS ZOOM */
+
+.zoom{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodZoom {
+    border: 1px solid #efefef;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto{
+    width: 300px;
+}
+
+.marco img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.galeriaProd{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.marco2 {
+    width: 140px;
+}
+
+.marco2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.descripcion{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.descripcion h2, p {
+    text-align: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.btnOut {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btnOut img {
+    margin-top: 15px;
+    width: 15px;
+}
+
+/* MAIN FOTOGRAFIA */
+
+.mainFot {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.mainFot img {
+    margin: 30px 0px;
+}
+
+.mainFot p {
+    font-size: 20px;
+    margin: 0px 0px 60px 0px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.contacto h3{
+    margin: 20px;
+    font-size: 32px;
+}
+
+.contacto a{
+    font-size: 14px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+}
